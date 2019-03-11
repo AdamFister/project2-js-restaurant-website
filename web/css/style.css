@@ -1,3 +1,18 @@
 .center {
     text-align: center;
 }
+
+.card {
+    width: 400px;
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+}
+
+.btn, h5 {
+    text-align: center;
+}
+
+#accordion {
+    float: center;
+}
