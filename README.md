@@ -2,6 +2,13 @@
 
 Read [/docs/requirements.md](https://github.com/bootcamp-s19/project2-js-restaurant-website/blob/master/docs/requirements.md) for instructions.
 
+1. Should have prices
+
+2. Must have procedurally generated menu items
+
+3. Could have pictures
+
+4. Won't have menu items based on days of the week
 
 Personas
 
@@ -19,10 +26,4 @@ Lazy Larry
  
  
 
-1. Should have prices
 
-2. Must have procedurally generated menu items
-
-3. Could have pictures
-
-4. Won't have menu items based on days of the week
