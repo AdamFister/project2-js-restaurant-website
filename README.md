@@ -7,10 +7,13 @@ Personas
 
 Hungry Harry
   - I want to see all food options quickly
+  
 Frugal Freddie
   - I want to see prices
+  
 Organized Orville
   - I want to see foods broken down into categories
+  
 Lazy Larry
   - I want to see all foods with minimal clicking
  
