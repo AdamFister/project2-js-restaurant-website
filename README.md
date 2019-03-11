@@ -18,10 +18,10 @@ Lazy Larry
   - I want to see all foods with minimal clicking (1)
  
 
-- Should have prices
+1. Should have prices
 
-- Must have procedurally generated menu items
+2. Must have procedurally generated menu items
 
-- Could have pictures
+3. Could have pictures
 
-- Won't have menu items based on days of the week
+4. Won't have menu items based on days of the week
