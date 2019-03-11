@@ -7,12 +7,13 @@ function getAppetizers() {
             return response.json();
         })
         .then(function (myJson) {
+            
             for (let i = 0; i < 8; i++) {
 
             let app = JSON.stringify(myJson.menu_items[i].description);
             app = app.slice(1, -1);
 
-            document.getElementById("apps" + i).innerHTML = app;
+            document.getElementById("apps" + i).innerHTML = app + " $" + Math.round(Math.random() * 10000) / 100;
             
             }
         }
@@ -24,57 +25,70 @@ function getAppetizers() {
 
 function getMains() {
     fetch('https://entree-f18.herokuapp.com/v1/menu/8')
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (myJson) {
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (myJson) {
+        
+        for (let i = 0; i < 8; i++) {
 
-            let mainObject = JSON.stringify(myJson.menu_items);
-            // console.log(mainObject);
+        let main = JSON.stringify(myJson.menu_items[i].description);
+        main = main.slice(1, -1);
+
+        document.getElementById("main" + i).innerHTML = main + " $" + Math.round(Math.random() * 10000) / 100;;
+        
         }
-        ).catch(function (error) {
-            console.log(error);
+    }
+    ).catch(function (error) {
+        console.log(error);
 
-        });
+    });
 }
 
 function getSides() {
     fetch('https://entree-f18.herokuapp.com/v1/menu/8')
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (myJson) {
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (myJson) {
+        
+        for (let i = 0; i < 8; i++) {
 
-            let sideObject = JSON.stringify(myJson.menu_items);
-            // console.log(sideObject);
+        let sides = JSON.stringify(myJson.menu_items[i].description);
+        sides = sides.slice(1, -1);
+
+        document.getElementById("sides" + i).innerHTML = sides + " $" + Math.round(Math.random() * 10000) / 100;;
+        
         }
-        ).catch(function (error) {
-            console.log(error);
+    }
+    ).catch(function (error) {
+        console.log(error);
 
-        });
+    });
 }
 
 function getBreakfasts() {
     fetch('https://entree-f18.herokuapp.com/v1/menu/8')
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (myJson) {
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (myJson) {
+        
+        for (let i = 0; i < 8; i++) {
 
-            let breakfastObject = JSON.stringify(myJson.menu_items);
-            // console.log(breakfastObject);
+        let breakfast = JSON.stringify(myJson.menu_items[i].description);
+        breakfast = breakfast.slice(1, -1);
+
+        document.getElementById("breakfast" + i).innerHTML = breakfast + " $" + Math.round(Math.random() * 10000) / 100;;
+        
         }
-        ).catch(function (error) {
-            console.log(error);
-
-        });
-}
-
-function getEachItem(appObject) {
-    for (let i = 0; i < 8; i++) {
-      //  console.log(appObject[i].description);
     }
+    ).catch(function (error) {
+        console.log(error);
+
+    });
 }
+
 
 
 
@@ -84,6 +98,4 @@ function populateMenu() {
     getMains();
     getSides();
     getBreakfasts();
-
-    getEachItem();
 }
