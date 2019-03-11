@@ -6,16 +6,16 @@ Read [/docs/requirements.md](https://github.com/bootcamp-s19/project2-js-restaur
 Personas
 
 Hungry Harry
-  - I want to see all food options quickly
+  - I want to see all food options quickly (1)
   
 Frugal Freddie
-  - I want to see prices
+  - I want to see prices (1)
   
 Organized Orville
-  - I want to see foods broken down into categories
+  - I want to see foods broken down into categories (1)
   
 Lazy Larry
-  - I want to see all foods with minimal clicking
+  - I want to see all foods with minimal clicking (1)
  
 
 - Should have prices
