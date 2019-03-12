@@ -10,7 +10,7 @@ Read [/docs/requirements.md](https://github.com/bootcamp-s19/project2-js-restaur
 
 4. Won't have menu items based on days of the week
 
-Personas
+Personas + Stories
 
 Hungry Harry
   - I want to see all food options quickly (1)
