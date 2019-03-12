@@ -4,7 +4,7 @@ Read [/docs/requirements.md](https://github.com/bootcamp-s19/project2-js-restaur
 
 1. Should have prices
 
-2. Must have procedurally generated menu items
+2. Must have randomly generated menu items
 
 3. Could have pictures
 
