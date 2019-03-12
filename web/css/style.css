@@ -4,8 +4,9 @@
 
 .card {
     width: 400px;
-    margin: 0 auto; 
+    margin: auto; 
     float: none; 
+    font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 10px; 
 }
 
@@ -15,4 +16,27 @@
 
 #accordion {
     float: center;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fill img {
+    max-width: 75%;
+    max-height: 75%
+}
+
+h1, h3, h4 {
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(131, 44, 131);
+}
+
+.btn {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 125%;
+    color: rgb(131, 44, 131);
 }
