@@ -24,6 +24,8 @@ Organized Orville
 Lazy Larry
   - I want to see all foods with minimal clicking (1)
  
- 
+Developer Adam
+  - I want to use js to generate each section of HTML (appetizers, main courses, sides, breakfasts) (7)
+  - I want to consolidate my functions so I am not repeating myself (DRY) (5)
 
 
